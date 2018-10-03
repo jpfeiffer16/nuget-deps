@@ -1,0 +1,14 @@
+{
+  "name": "nuget-deps",
+  "version": "1.0.0",
+  "description": "Get Nuget deps",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Pfeiffer",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
