@@ -1,0 +1,8 @@
+Serilog
+Serilog.Sinks.Console
+Serilog.Enrichers.Environment
+Serilog.Enrichers.Process
+Serilog.Enrichers.Thread
+Serilog.Sinks.Debug
+Serilog.Sinks.ElasticSearch
+Serilog.Settings.AppSettings

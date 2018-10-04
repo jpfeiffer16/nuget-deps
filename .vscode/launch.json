@@ -10,7 +10,9 @@
       "name": "Launch Program",
       "program": "${workspaceFolder}/app.js",
       "args": [
-        "Serilog.Sinks.ElasticSearch"
+        "Serilog",
+        "Serilog.Sinks.Console",
+        "Serilog.Enrichers.Environment"
       ]
     }
   ]
