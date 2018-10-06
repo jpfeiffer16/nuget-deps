@@ -9,6 +9,8 @@
   "author": "Joe Pfeiffer",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.18.0",
+    "node-fetch": "^2.2.0",
     "request": "^2.88.0"
   }
 }

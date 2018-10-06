@@ -8,11 +8,11 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/app.js",
+      "program": "${workspaceFolder}/app2.js",
       "args": [
-        "Serilog",
-        "Serilog.Sinks.Console",
-        "Serilog.Enrichers.Environment"
+        "-f",
+        ".NETFramework4.5",
+        "Serilog.Sinks.ElasticSearch Serilog.Enrichers.Environment"
       ]
     }
   ]
