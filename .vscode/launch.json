@@ -8,7 +8,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/app2.js",
+      "program": "${workspaceFolder}/app.js",
       "args": [
         "-f",
         ".NETFramework4.5",
