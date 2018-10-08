@@ -13,7 +13,6 @@ program
     })
     .option('-f, --framework [number]', 'Framework version')
     .option('-e, --error [bool]', 'Show error stacktraces')
-    // .option('-p, --packages [string]', 'Packages to get deps for')
     .parse(process.argv);
 
 (async function () {
@@ -22,10 +21,11 @@ program
             async pkg => {
                 let parts = pkg.split('@');
                 let res;
+                let framework = program.framework ? program.framework : null;
                 if (parts.length === 2) {
-                  res = await getDeps(parts[0], parts[1]);
+                  res = await getDeps(parts[0], parts[1], framework);
                 } else {
-                  res = await getDeps(pkg)
+                  res = await getDeps(pkg, null, framework);
                 }
                 return res;
             }
